@@ -1,4 +1,11 @@
 @import "variables";
+@mixin br-radius($value){
+  border-radius: $value;
+}
+// @mixin rotate($valueX,$valueY){
+//   transform: rotateX($valueX) rotateY($valueY);
+  
+// }
 
 *{
   box-sizing: border-box;
