@@ -13,22 +13,18 @@ body {
 
 #top-bar {
   background: MEDIUMPURPLE; }
-
-#top-bar ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-#top-bar ul li {
-  display: inline-block;
-  margin: 5px; }
-
-#top-bar a {
-  color: #fff;
-  font-size: 20px; }
-
-#top-bar a:hover {
-  color: green; }
+  #top-bar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    #top-bar ul li {
+      display: inline-block;
+      margin: 5px; }
+  #top-bar a {
+    color: #fff;
+    font-size: 20px; }
+    #top-bar a:hover {
+      color: green; }
 
 #header {
   background: green;
@@ -36,30 +32,25 @@ body {
   height: 100px;
   font-family: verdana;
   border-bottom: 1px solid transparent; }
-
-#header h1 {
-  padding: 30px 0 0 20px;
-  margin: 0; }
+  #header h1 {
+    padding: 30px 0 0 20px;
+    margin: 0; }
 
 #menu {
   background: MEDIUMPURPLE;
   border-bottom: 1px solid transparent; }
-
-#menu ul {
-  margin: 0;
-  padding: 0; }
-
-#menu li {
-  display: inline-block; }
-
-#menu li a {
-  color: #fff;
-  display: block;
-  padding: 10px 13px;
-  text-decoration: none; }
-
-#menu li a:hover {
-  background: green; }
+  #menu ul {
+    margin: 0;
+    padding: 0; }
+  #menu li {
+    display: inline-block; }
+    #menu li a {
+      color: #fff;
+      display: block;
+      padding: 10px 13px;
+      text-decoration: none; }
+      #menu li a:hover {
+        background: green; }
 
 #content {
   width: 795px;
@@ -68,13 +59,11 @@ body {
   float: left;
   box-sizing: border-box;
   position: relative; }
-
-#content ::selection {
-  background: green;
-  color: #fff; }
-
-#content h2 {
-  font-family: verdana; }
+  #content ::selection {
+    background: green;
+    color: #fff; }
+  #content h2 {
+    font-family: verdana; }
 
 #sidebar {
   background: LAVENDER;
@@ -82,13 +71,11 @@ body {
   min-height: 500px;
   float: right;
   border-left: 1px solid transparent; }
-
-#sidebar a {
-  text-decoration: none;
-  color: black; }
-
-#sidebar a:hover {
-  color: green; }
+  #sidebar a {
+    text-decoration: none;
+    color: black; }
+    #sidebar a:hover {
+      color: green; }
 
 #footer {
   background: green;

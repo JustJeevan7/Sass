@@ -17,56 +17,57 @@ body{
 }
 
 #top-bar{
-  background: MEDIUMPURPLE;
+    background: MEDIUMPURPLE;
+    ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li{
+    display: inline-block;
+    margin: 5px;
+  }
+  }
+  a{
+    color: #fff;
+    font-size: 20px;
+    &:hover{
+    color: $main-color;
+  }
+  }
 }
-#top-bar ul{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-#top-bar ul li{
-  display: inline-block;
-  margin: 5px;
-}
-#top-bar a{
-  color: #fff;
-  font-size: 20px;
-}
-#top-bar a:hover{
-  color: $main-color;
-}
+
 #header{
   background: $main-color;
   color: #fff;
   height: 100px;
   font-family: $main-font;
   border-bottom: 1px solid $border-color;
-}
-#header h1{
+  h1{
   padding:30px 0 0 20px;
   margin: 0;
 }
-#menu{
-	background: MEDIUMPURPLE;
-    border-bottom: 1px solid $border-color;
 }
-#menu ul{
+#menu
+{
+	background: MEDIUMPURPLE;
+  border-bottom: 1px solid $border-color;
+    ul{
   margin: 0;
   padding: 0;
-}
-#menu li{
+      }
+    li{
   display:inline-block;
-}
-#menu li a{
-  color: #fff;
-  display:block;
-  padding: 10px 13px;
-  text-decoration:none;
-
-}
-#menu li a:hover{
-	background: $main-color;
-}
+          a{
+          color: #fff;
+          display:block;
+          padding: 10px 13px;
+          text-decoration:none;
+          &:hover{
+              background: $main-color;
+          }
+          }
+      }
+} 
 #content{
   width:795px;
   min-height:500px;
@@ -74,14 +75,15 @@ body{
   float:left;
   box-sizing:border-box;
   position:relative;
-}
-#content ::selection{
-  background: $main-color;
+  ::selection{
+    background: $main-color;
   color: #fff;
-}
-#content h2{
+  }
+  h2{
   font-family: $main-font;
+  }
 }
+
 
 #sidebar{
   background: LAVENDER;
@@ -89,14 +91,16 @@ body{
   min-height:500px;
   float:right;
   border-left: 1px solid $border-color;
-}
-#sidebar a{
+  a{
   text-decoration:none;
   color:black;
-}
-#sidebar a:hover{
+  &:hover{
   color: $main-color;
 }
+}
+
+}
+
 #footer{
   background: $main-color;
   color: #fff;
