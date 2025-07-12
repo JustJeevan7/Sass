@@ -1,0 +1,22 @@
+body {
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+#first, #second, #third {
+  width: 600px;
+  height: 200px;
+  background-color: burlywood;
+  border: 1px solid black;
+  padding: 20px; }
+
+#second {
+  width: 600px;
+  height: 250px;
+  background-color: #219696; }
+
+#third {
+  width: 600px;
+  height: 300px;
+  background-color: #a55e00; }
+
+/*# sourceMappingURL=Extends_style.css.map */

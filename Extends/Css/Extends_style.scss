@@ -1,0 +1,25 @@
+body{
+ box-sizing: border-box;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@mixin size($height,$width){
+    width: $width;
+    height: $height;
+    
+}
+#first{
+    @include size(200px,600px);
+    background-color: burlywood;
+    border: 1px solid black;
+    padding: 20px;
+}
+#second{
+    @include size(250px,600px);
+    background-color: rgb(33, 150, 150);
+    @extend #first ;
+}
+#third{
+    @include size(300px,600px);
+    background-color: rgb(165, 94, 0);
+    @extend #first ;
+}
