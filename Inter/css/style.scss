@@ -1,0 +1,20 @@
+body{
+    box-sizing: border-box;
+    padding:0px;
+}
+
+@mixin icon($name){
+    #icon#{$name}{
+        
+        height: 100px;
+        width: 100px;
+        background: url(../img/#{$name}.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat
+    }
+}
+@include icon(facebook);
+@include icon(instagram);
+@include icon(twitter);
+@include icon(youtube);

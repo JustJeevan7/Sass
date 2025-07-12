@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+  padding: 0px; }
+
+#iconfacebook {
+  height: 100px;
+  width: 100px;
+  background: url(../img/facebook.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#iconinstagram {
+  height: 100px;
+  width: 100px;
+  background: url(../img/instagram.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#icontwitter {
+  height: 100px;
+  width: 100px;
+  background: url(../img/twitter.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#iconyoutube {
+  height: 100px;
+  width: 100px;
+  background: url(../img/youtube.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/*# sourceMappingURL=style.css.map */
