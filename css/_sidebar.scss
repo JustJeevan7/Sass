@@ -1,0 +1,16 @@
+#sidebar{
+  background: LAVENDER;
+  width:200px;
+  min-height:500px;
+  float:right;
+  border-left: 1px solid $border-color;
+  
+  a{
+    text-decoration:none;
+    color:black;
+
+    &:hover{
+      color: $main-color;
+    }
+  }
+}
